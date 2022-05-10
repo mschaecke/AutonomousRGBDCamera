@@ -1,0 +1,25 @@
+{
+    "XMin": -10000.0,
+    "XMax": 10000.0,
+    "XStep": 10.0,
+
+    "YMin": -10000.0,
+    "YMax": 10000.0,
+    "YStep": 10.0,
+
+    "ZMin": -10000.0,
+    "ZMax": 10000.0,
+    "ZStep": 10.0,
+
+    "RollMin": -10000.0,
+    "RollMax": 10000.0,
+    "RollStep": 10.0,
+
+    "PitchMin": -10000.0,
+    "PitchMax": 10000.0,
+    "PitchStep": 10.0,
+
+    "YawMin": -10000.0,
+    "YawMax": 10000.0,
+    "YawStep": 10.0
+}

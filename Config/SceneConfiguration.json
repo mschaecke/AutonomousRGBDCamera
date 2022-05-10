@@ -1,0 +1,105 @@
+{
+    "SceneObjects": [
+        {
+            "ID": 0,
+            "X": -150.0,
+            "Y": -30.0,
+            "Z": 106.0,
+            "Roll": 0.0,
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "MeshPath": "/Game/Models/IAIKitchen/Items/AlbiHimbeerJuice/SM_AlbiHimbeerJuice.SM_AlbiHimbeerJuice",
+            "MaterialPath": "/Game/Models/IAIKitchen/Items/AlbiHimbeerJuice/M_AlbiHimbeerJuice.M_AlbiHimbeerJuice"
+        },
+        {
+            "ID": 1,
+            "X": -150.0,
+            "Y": 0.0,
+            "Z": 93.0,
+            "Roll": 0.0,
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "MeshPath": "/Game/Models/IAIKitchen/Dishes/ClassicPlate28cm/SM_ClassicPlate28cm.SM_ClassicPlate28cm",
+            "MaterialPath": "/Game/Models/IAIKitchen/Dishes/ClassicPlate28cm/M_ClassicPlate28cm.M_ClassicPlate28cm"
+        },
+        {
+            "ID": 2,
+            "X": -150.0,
+            "Y": 0.0,
+            "Z": 94.0,
+            "Roll": 0.0,
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "MeshPath": "/Game/Models/IAIKitchen/Cutlery/DinnerFork/SM_DinnerFork.SM_DinnerFork",
+            "MaterialPath": "/Game/Models/IAIKitchen/Cutlery/DinnerFork/M_Fork_Dinner.M_Fork_Dinner"
+        },
+        {
+            "ID": 3,
+            "X": -150.0,
+            "Y": 30.0,
+            "Z": 104.0,
+            "Roll": 0.0,
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "MeshPath": "/Game/Models/IAIKitchen/Items/BaerenMarkeFrischeAlpenmilch18/SM_BaerenMarkeFrischeAlpenmilch18.SM_BaerenMarkeFrischeAlpenmilch18",
+            "MaterialPath": "/Game/Models/IAIKitchen/Items/BaerenMarkeFrischeAlpenmilch18/M_BaerenMarkeFrischeAlpenmilch18.M_BaerenMarkeFrischeAlpenmilch18"
+        },
+        {
+            "ID": 4,
+            "X": -200.0,
+            "Y": 0.0,
+            "Z": 106.0,
+            "Roll": 0.0,
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "MeshPath": "/Game/Models/IAIKitchen/Items/KelloggsCornFlakes/SM_KelloggsCornFlakes.SM_KelloggsCornFlakes",
+            "MaterialPath": "/Game/Models/IAIKitchen/Items/KelloggsCornFlakes/M_KelloggsCornFlakes.M_KelloggsCornFlakes"
+        }
+    ],
+
+    "SpatialRelationships": [
+        {
+            "ID1": 0,
+            "SpatialRelationship": "front",
+            "ID2": 4
+        },
+
+        {
+            "ID1": 1,
+            "SpatialRelationship": "contain",
+            "ID2": 2
+        }, 
+        {
+            "ID1": 1,
+            "SpatialRelationship": "front",
+            "ID2": 4
+        },
+        {
+            "ID1": 1,
+            "SpatialRelationship": "left",
+            "ID2": 0
+        },
+
+        {
+            "ID1": 2,
+            "SpatialRelationship": "on",
+            "ID2": 1
+        },
+
+        {
+            "ID1": 3,
+            "SpatialRelationship": "front",
+            "ID2": 4
+        },
+        {
+            "ID1": 3,
+            "SpatialRelationship": "left",
+            "ID2": 1
+        },
+        {
+            "ID1": 3,
+            "SpatialRelationship": "left",
+            "ID2": 0
+        }
+    ]
+}
