@@ -16,5 +16,7 @@ void FAutonomousRGBDCameraModule::ShutdownModule()
 }
 
 #undef LOCTEXT_NAMESPACE
+
+DEFINE_LOG_CATEGORY(URoboVisionLog);
 	
 IMPLEMENT_MODULE(FAutonomousRGBDCameraModule, AutonomousRGBDCamera)
